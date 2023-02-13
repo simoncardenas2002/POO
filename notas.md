@@ -23,3 +23,42 @@ Este se parece a la asociación en que un elemento dependerá del otro, pero en 
 ### Composición:
 Este es similar al anterior solo que su relación es totalmente compenetrada de tal modo que conceptualmente una de estas clases no podría vivir si no existiera la otra
 
+
+# Sintaxis
+## declarar clases person
+
+java
+class person {}
+
+Python
+class person:
+
+javascript
+Function person(){}
+
+PHP
+class Person {}
+
+## declarar metodos walk
+
+java
+class person {
+    String name= "";
+    void walk(){}
+}
+
+Python
+class person:
+    name=""
+    def walk():
+
+javascript
+person.prototype.walk= function(){
+    
+}
+
+PHP
+class Person {
+    $name= "";
+    function.walk(){}
+}
