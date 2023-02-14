@@ -62,3 +62,38 @@ class Person {
     $name= "";
     function.walk(){}
 }
+
+### declarar objetos
+
+java
+Person person =new Person();
+
+python 
+persona=Person();
+
+javascript
+var person= new Person();
+
+php
+$person = new Person();
+
+### metodo constructor
+
+java
+public Person(String name){
+    this.name=name;
+}
+
+Python 
+def __init__(self, name):
+self.name = name
+
+JavaScript
+function Person(name){
+    this.name = name;
+}
+
+PHP
+$public function_construct($name){
+    $this->name = $name;
+}
